@@ -1,0 +1,8 @@
+[package]
+name = "cuda-adaptation"
+version = "0.1.0"
+edition = "2021"
+description = "Runtime adaptation — agents that modify their own behavior based on experience, environment, and feedback"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
