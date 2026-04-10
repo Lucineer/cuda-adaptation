@@ -2,7 +2,12 @@
 name = "cuda-adaptation"
 version = "0.1.0"
 edition = "2021"
-description = "Runtime adaptation — agents that modify their own behavior based on experience, environment, and feedback"
+description = "Adaptive parameters — strategy switching, behavioral plasticity"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-adaptation"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
